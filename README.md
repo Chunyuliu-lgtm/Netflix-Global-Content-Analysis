@@ -177,7 +177,7 @@ This suggests that Netflix's globalization strategy may rely more heavily on geo
 
 ### Share of International Co-Productions
 
-![Co-production Share](figures/share_of_international_coproductions_on_netflix.png)
+![Co-production Share](figures/coproduction_share.png)
 
 ---
 

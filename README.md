@@ -240,6 +240,8 @@ Future analysis will investigate:
 * Country-specific duration preferences
 * Serialized content expansion trends
 
+---
+
 ## Rating Analysis
 
 (Planned)

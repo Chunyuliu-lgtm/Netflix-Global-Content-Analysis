@@ -271,7 +271,8 @@ Planned extensions of this project include:
 * International co-production network analysis
 * Additional business-oriented content strategy interpretation
 
-Future analyses will continue to explore observable content distribution patterns while avoiding unsupported assumptions beyond the available catalog-level data. The project aims to generate actionable business insights while maintaining clear boundaries between catalog trends and broader audience behavior hypotheses.
+Future analyses will continue to explore observable content distribution patterns while avoiding unsupported assumptions beyond the available catalog-level data. The project aims to generate actionable business insights while maintaining clear boundaries between catalog trends and broader audience behavior hypotheses.Future analyses will progressively move from descriptive catalog analysis toward audience-oriented content strategy interpretation.
+
 
 
 ---

@@ -237,41 +237,129 @@ The analysis compares differences in content specialization, television-oriented
 
 ## Duration Analysis
 
-(Work in Progress)
+This section investigates Netflix content duration patterns and their potential relationship to audience engagement behavior and platform content strategy.
 
-Future analysis will investigate:
+The analysis focuses on:
 
-* Movie vs TV Show duration patterns
-* Long-form vs short-form storytelling
-* Country-specific duration preferences
-* Serialized content expansion trends
+* Distribution of movie durations
+* Duration differences across audience ratings
+* Average movie duration by rating category
+* Long-form vs short-form storytelling patterns
+* Potential relationships between content maturity and viewing length
+
+## Key Findings
+
+* Most Netflix movies are concentrated within standard feature-length ranges, particularly between approximately 80 and 120 minutes.
+
+* Mature audience categories such as TV-MA and R-rated content generally demonstrate longer average durations compared to family-oriented categories.
+
+* Family-oriented and children's content tends to exhibit shorter duration patterns, suggesting different engagement and viewing strategies across audience segments.
+
+* Duration variability is substantially larger among mature-content categories, indicating broader experimentation with storytelling complexity and pacing.
+
+## Business Insight
+
+The results suggest that Netflix may apply differentiated content-duration strategies across audience segments. Mature audience content appears more associated with long-form storytelling and extended engagement, while family-oriented content emphasizes shorter and more accessible viewing formats.
+
+These patterns may reflect broader platform objectives related to binge-watching behavior, retention strategy, and audience-specific content consumption preferences.
+
+## Visualizations
+
+### Average Movie Duration by Rating
+
+![Average Movie Duration by Rating](figures/average_movie_duration_by_rating.png)
+
+### Movie Duration Distribution by Rating
+
+![Movie Duration Distribution by Rating](figures/movie_duration_distribution_by_rating.png)
+
 
 ---
 
 ## Rating Analysis
 
-(Planned)
+This section explores how Netflix distributes audience-targeting ratings across genres and content categories.
 
-* Future analysis will investigate:
-* Rating distribution across countries
-* Genre-specific audience targeting
-* TV-MA vs TV-14 market differences
-* Family-oriented vs mature-content strategies
+The analysis focuses on:
+
+* Overall rating distribution
+* Rating distribution across top genres
+* Audience segmentation patterns
+* Mature-content vs family-oriented content strategies
+
+## Key Findings
+
+* TV-MA and TV-14 dominate Netflix's catalog across most major genres, indicating strong emphasis on teen and adult audiences.
+
+* International Movies and Dramas contain particularly large proportions of mature-rated content.
+
+* Family-oriented genres demonstrate significantly higher proportions of PG and TV-PG ratings, reflecting differentiated audience targeting strategies.
+
+* Rating distributions vary substantially across genres, suggesting that Netflix applies genre-specific audience positioning approaches.
+
+## Business Insight
+
+The analysis suggests that Netflix's overall platform strategy is heavily oriented toward mature audience engagement while maintaining selective diversification into family-oriented categories.
+
+The dominance of mature-rated content may reflect the platform's emphasis on long-form engagement, serialized storytelling, and audience retention among adult viewers.
+
+## Visualizations
+
+### Rating Distribution Across Top Genres
+
+![Rating Distribution Across Top Genres](figures/top10_genres_rating_distribution.png)
+
+
+---
+
+## Content Age Analysis
+
+This section investigates how quickly Netflix adds content to its platform after original release, with the goal of exploring potential content acquisition and platform freshness strategies.
+
+The analysis focuses on:
+
+* Distribution of content age
+* Time gap between release year and Netflix addition year
+* Recent vs legacy content patterns
+* Differences between Movies and TV Shows
+
+## Key Findings
+
+* Most Netflix titles are added to the platform within a relatively short period after release, indicating strong preference for recent content.
+
+* The content age distribution is right-skewed, with a smaller number of older titles extending the long tail of the distribution.
+
+* The median content age is lower than the mean content age, suggesting that older legacy titles increase the overall average.
+
+* TV Shows generally demonstrate lower average content age compared to Movies, reflecting faster platform integration and stronger emphasis on serialized engagement-driven content.
+
+## Business Insight
+
+The results suggest that Netflix prioritizes platform freshness through relatively recent content acquisition while simultaneously maintaining a smaller catalog of legacy and classic titles.
+
+The faster integration cycle observed for TV Shows may reflect the growing importance of episodic storytelling in driving long-term viewer retention and binge-watching behavior.
+
+## Visualization
+
+### Distribution of Netflix Content Age
+
+![Content Age Distribution](figures/content_age_distribution.png)
+
 
 ---
  ## Future Work
 
-Planned extensions of this project include:
+Potential future extensions of this project include:
 
-* Genre-duration relationship analysis
-* Rating distribution analysis across countries and genres
-* Long-form vs short-form content trend analysis
-* Country-level duration preference analysis
-* Genre concentration analysis
-* International co-production network analysis
-* Additional business-oriented content strategy interpretation
+* Recommendation-system-oriented content similarity analysis
+* SQL-based analytics workflows
+* Genre co-occurrence analysis
+* International co-production network visualization
+* Audience segmentation modeling
+* Machine-learning approaches for content clustering and trend prediction
 
-Future analyses will continue to explore observable content distribution patterns while avoiding unsupported assumptions beyond the available catalog-level data. The project aims to generate actionable business insights while maintaining clear boundaries between catalog trends and broader audience behavior hypotheses.Future analyses will progressively move from descriptive catalog analysis toward audience-oriented content strategy interpretation.
+Future work may further explore how catalog-level patterns relate to platform engagement, recommendation systems, and content investment strategies.
+
 
 
 

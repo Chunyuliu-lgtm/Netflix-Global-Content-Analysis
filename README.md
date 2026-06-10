@@ -82,13 +82,17 @@ Netflix-Global-Content-Analysis
 │   ├── uk_genre_top10.png
 │   ├── japan_genre_top10.png
 │   ├── south_korea_genre_top10.png
-│   └── canada_genre_top10.png
+│   ├── canada_genre_top10.png
+│   ├── average_movie_duration_by_rating.png
+│   ├── movie_duration_distribution_by_rating.png
+│   ├── top10_genres_rating_distribution.png
+│   └── content_age_distribution.png
 │
 ├── README.md
 │
 └── netflix_global_content_analysis.ipynb
-
 ```
+
 
 ---
 
@@ -125,6 +129,8 @@ The analysis therefore focuses on identifying patterns that may support future d
 ### 3. Duration Analysis
 
 ### 4. Rating Analysis
+
+### 5. Content Age Analysis
 
 ---
 
